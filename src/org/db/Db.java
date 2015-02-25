@@ -22,4 +22,7 @@ public class Db {
         catch(Exception e) { throw new SQLException(e); }
         return DriverManager.getConnection(conn, user, pass);
     }
+    
+    
+    // can add conneciton pooling for speed enhancement
 }
