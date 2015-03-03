@@ -22,7 +22,7 @@ import org.db.*;
 public class Main {
 
     public static void main(String[] args) {
-        Connection conn = Db.conn();
+        Connection conn = Db.conn(); // get connection
         Statement cmd = conn.createStatement();
         ResultStatement ans = cmd.executeQuery("SELECT * FROM tab");
         System.out.println("Tables in database:");
