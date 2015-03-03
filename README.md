@@ -38,3 +38,10 @@ EMP
 DEPT
 ```
 
+
+## Reference
+
+| Db | |
+|----|-|
+| **conn** <br/> `()` | get connection to database <br/> `Connection conn = Db.conn();` |
+
