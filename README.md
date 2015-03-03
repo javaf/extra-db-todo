@@ -41,7 +41,7 @@ DEPT
 
 ## Reference
 
-| Db                  |                                                                 |
+| `class Db`          |                                                                 |
 |---------------------|-----------------------------------------------------------------|
 | **conn** <br/> `()` | get connection to database <br/> `Connection conn = Db.conn();` |
 
